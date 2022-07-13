@@ -1,6 +1,6 @@
 const express = require("express")
 const router = express.Router()
-const dreamRoutes = require("./dream")
+const dreamRoutes = require("./dreams")
 
 router.use("/dream", dreamRoutes)
 
