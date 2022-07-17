@@ -7,8 +7,8 @@ const getAll = (req, res) => {
 };
 
 const findById = (req, res) => {
-  Dream.find({id:req.params.id}).then(id => {
-    res.json(dream)
+  Dream.find({_id:req.params.dreams}).then(dream => {
+    res.json({dream})
   })
 }
 
