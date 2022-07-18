@@ -4,7 +4,7 @@ const dreamController = require("../../controllers/dreams");
 
 router.get("/", dreamController.getAll);
 
-router.get("/:dreams", dreamController.findById);
+router.get("/:dream", dreamController.findById);
 
 router.post("/", dreamController.create);
 
