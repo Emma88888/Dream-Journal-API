@@ -18,9 +18,9 @@ app.use(cors({origin: "*"}))
 
 app.use(routes)
 
-app.get('/test', function(req, res) {
-    res.json({hello: "helllo"})
-})
+// app.get('/test', function(req, res) {
+//     res.json({hello: "helllo"})
+// })
 
 app.listen(PORT, () => console.log('App is listening'))
 
